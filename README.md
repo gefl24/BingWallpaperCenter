@@ -16,19 +16,3 @@ BingWallpaperCenter 是一个优雅、轻量且纯粹的跨平台桌面壁纸引
 - 🚀 **双进程守护架构**：前后台彻底分离。UI 界面关闭即刻释放内存，仅留占用极低的 Daemon 守护进程在后台默默调度定时任务。
 - ⚡ **极致性能优化**：告别原图加载卡顿。内置轻量级图像处理引擎（Pillow），在后台动态生成并缓存极小体积的缩略图，千张图库也能秒开。
 
-## 📸 界面预览
-
-| 控制面板 (浅色) | 控制面板 (深色) |
-| :---: | :---: |
-| <img src="在这里放入你的浅色截图链接.png" width="400"> | <img src="在这里放入你的深色截图链接.png" width="400"> |
-
-*(提示：将应用运行起来后，截取几张漂亮的界面图放在这里)*
-
-## 🛠️ 安装与运行 (开发环境)
-
-确保你的电脑已安装 Python 3.8+，然后执行以下步骤：
-
-1. **克隆项目**
-   ```bash
-   git clone [https://github.com/你的用户名/BingWallpaperCenter.git](https://github.com/你的用户名/BingWallpaperCenter.git)
-   cd BingWallpaperCenter
